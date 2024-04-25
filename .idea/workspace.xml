@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fb03dd4-3151-4055-b55b-d70aa04b5531" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Income.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RefactorIncomeReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RefactorIncomeReportTest.java" afterDir="false" />
+    <list default="true" id="7fb03dd4-3151-4055-b55b-d70aa04b5531" name="Changes" comment="refactoring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IncomeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RefactorIncomeReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RefactorIncomeReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RefactorIncomeReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/RefactorIncomeReportTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +24,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="development" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="development" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -159,8 +170,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RefactorIncomeReportTest" />
-        <item itemvalue="JUnit.RefactorIncomeReportTest.testIsIncomeGoalNotAchieved" />
         <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.RefactorIncomeReportTest.testIsIncomeGoalNotAchieved" />
         <item itemvalue="JUnit.RefactorIncomeReportTest.testGetIncomeName" />
         <item itemvalue="JUnit.RefactorIncomeReportTest.testCalculationTotalAmountEarned" />
       </list>
@@ -175,10 +186,49 @@
       <option name="presentableId" value="Default" />
       <updated>1714032650760</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactoring">
+      <option name="closed" value="true" />
+      <created>1714043531555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714043531555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$RefactorIncomeReportTest_testIsIncomeGoalNotAchieved.ic" NAME="RefactorIncomeReportTest.testIsIncomeGoalNotAchieved Coverage Results" MODIFIED="1714042309564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$RefactorIncomeReportTest.ic" NAME="RefactorIncomeReportTest Coverage Results" MODIFIED="1714042538175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.*</FILTER>
     </SUITE>
   </component>

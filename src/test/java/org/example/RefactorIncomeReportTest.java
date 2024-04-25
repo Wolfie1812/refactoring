@@ -44,7 +44,7 @@ public void testCalculationTotalAmountEarned(){
     public void testGetIncomeName(){
     incomeCar.amount = 20;
     incomeCar.type = IncomeType.CAR_WASHING;
-    String incomeName = RefactorIncomeReport.getIncomeName(incomeCar);
+    String incomeName = incomeCar.type.getIncomeName();
     assertEquals("Car washing", incomeName);
 }
 }
